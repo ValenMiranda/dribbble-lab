@@ -13,4 +13,7 @@ $(document).ready(function() {
                 '<p class="pull-right icon-shots"><i class="fa fa-eye" aria-hidden="true"></i>'+element.views_count+'<i class="fa fa-comment" aria-hidden="true"></i>'+element.comments_count+
                 '<i class="fa fa-heart" aria-hidden="true"></i>'+element.likes_count+'</p>'+
                 ' </div></a>');
+        if(element.description == null){
+            $(".p-descripcion").remove();
+        }
 });
