@@ -113,3 +113,22 @@ body{
 	font-size: 11px;
 }
 /********FIN SHOTS****************/
+
+/********FOOTER****************/
+
+footer{
+  background: white;
+  margin: 0 4px 8px 0;
+
+}
+
+footer a, li, p{
+color: #a0a0a0;
+
+list-style: none;
+}
+
+footer li>a:hover{
+  color:#black;
+}
+
