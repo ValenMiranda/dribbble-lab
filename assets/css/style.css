@@ -4,7 +4,15 @@
 .nav-uno{
 	border-radius: 0;
 	background-color: #333333;
+	border-color: none;
 }
 
+ul li a.sign-mobile{
+	padding-right: ;
+}
+
+.navbar-toggle{
+	color: #8F8C8C;
+}
 
 /******** FIN NAVBAR UNO *********/

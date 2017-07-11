@@ -1,5 +1,5 @@
-@media (min-height: 960){
-	
+@media (min-width: 768px) {
+
 	.input-search{
 		height: 25px;
 		width: 40px;
@@ -10,7 +10,6 @@
 		padding-right: 0;
 		margin-right: 10px;
 	}
-
 	ul li .sign{
 		padding: 0;
 		margin-top: 6px;
