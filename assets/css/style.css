@@ -1,6 +1,6 @@
 /* Acá van tus estilos */
 body{
-	background-color: blue;
+	background-color: #ddd;
 }
 /********INICIO PERFIL****************/
 .imgPerfil{
@@ -67,5 +67,8 @@ body{
 }
 .red-perfil li{
 	padding: 5px;
+}
+.skill, .elsewhere{
+	border-top: 1px solid #ddd;
 }
 /********FIN PERFIL****************/
