@@ -32,5 +32,40 @@ body{
 	background-color: white;
 	padding: 20px;
 }
-
+.locatizacion, .perfil div{
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.mensaje button{
+	color: #fff;
+    background-color: #7bbb5e;
+    padding: 5px;
+}
+.red-perfil{
+	list-style: none;
+	padding: 5px;
+}
+.row-perfil{
+	margin: 2px;
+}
+.color{
+   color: #b5b1b1;
+}
+.img-red{
+	width: 25px;
+	opacity: .40;
+}
+.img-red:hover{
+	opacity: initial;
+}
+.red-enlace{
+	color: #353535;
+}
+.red-perfil li a{
+	text-decoration: none;
+}
+.red-perfil li{
+	padding: 5px;
+}
 /********FIN PERFIL****************/
