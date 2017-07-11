@@ -8,4 +8,9 @@ $(document).ready(function() {
         data.forEach(function(element){
         console.log(element.title);
         console.log(element.description);
+        $("#padre-shots").append('<a class="a-shots"><div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 hijo-shots">'+
+                '<div class="contenedor-hover" style="position:relative"><div class="contenedor-imagen-shots"><p>'+element.title+'</p><p class="p-descripcion">'+element.description+'</p></div><img class="img-responsive" src="'+element.images.normal+'" alt=""></div>'+
+                '<p class="pull-right icon-shots"><i class="fa fa-eye" aria-hidden="true"></i>'+element.views_count+'<i class="fa fa-comment" aria-hidden="true"></i>'+element.comments_count+
+                '<i class="fa fa-heart" aria-hidden="true"></i>'+element.likes_count+'</p>'+
+                ' </div></a>');
 });
