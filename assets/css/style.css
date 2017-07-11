@@ -2,6 +2,11 @@
 body{
 	background-color: blue;
 }
+
+/********INICIO NAVBAR********/
+.nav {
+	margin-left: 35%;
+}
 /********INICIO PERFIL****************/
 .imgPerfil{
 	display: block;
