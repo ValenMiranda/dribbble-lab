@@ -3,5 +3,34 @@ body{
 	background-color: blue;
 }
 /********INICIO PERFIL****************/
+.imgPerfil{
+	display: block;
+	margin: 0 auto;
+    border-radius: 50%;
+}
+.skillEnlace{
+	display: inline-block;
+	color: #353535;
+	margin: 0 4px 8px 0;
+	border: 1px solid #b5b1b1;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.skillEnlace:hover{
+    text-decoration: none;
+}
+.perfil{
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.elsewhere{
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.perfil, .skill, .elsewhere{
+	background-color: white;
+	padding: 20px;
+}
 
 /********FIN PERFIL****************/
