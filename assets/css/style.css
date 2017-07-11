@@ -7,6 +7,10 @@ body{
 .nav {
 	margin-left: 35%;
 }
+
+.btn-default{
+	margin-left: 250%;
+}
 /********INICIO PERFIL****************/
 .imgPerfil{
 	display: block;
