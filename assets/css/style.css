@@ -11,6 +11,10 @@ body{
 .btn-default{
 	margin-left: 250%;
 }
+
+.a-th-large{
+	margin-left: 70%;
+}
 /********INICIO PERFIL****************/
 .imgPerfil{
 	display: block;
