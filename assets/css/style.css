@@ -1,2 +1,23 @@
 /* Acá van tus estilos */
 
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.redes-sociales i{
+	font-size: 30px;
+	color: grey;
+	padding: 10px;
+}
+
+
+.texto.texto-one{
+	color: grey;
+}
+
+.text-gray a{
+   color: grey;
+}
