@@ -8,6 +8,16 @@ body{
 	margin: 0 auto;
     border-radius: 50%;
 }
+
+.perfil-name {
+    font-size: 2em;
+    color: black;
+}
+
+.perfil-location {
+    color: #ccc;
+}
+
 .skillEnlace{
 	display: inline-block;
 	color: #353535;
