@@ -1,5 +1,11 @@
-/* Acá van tus estilos */
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background-color: #ddd;
+}
 
 /******** NAVBAR UNO *********/
 .nav-uno{
@@ -19,18 +25,11 @@ ul li a.sign-mobile{
 
 /******** FIN NAVBAR UNO *********/
 
-*{
-	margin: 0;
-	padding: 0;
-}
-
-
 .redes-sociales i{
 	font-size: 30px;
 	color: grey;
 	padding: 10px;
 }
-
 
 .texto.texto-one{
 	color: grey;
@@ -38,10 +37,6 @@ ul li a.sign-mobile{
 
 .text-gray a{
    color: grey;
-}
-
-body{
-	background-color: #ddd;
 }
 
 /********INICIO NAVBAR********/
@@ -194,7 +189,7 @@ list-style: none;
 }
 
 footer li>a:hover{
-  color:#black;
+  color:black;
 }
 .redes{
 	margin-left: 10px;
