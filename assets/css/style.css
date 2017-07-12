@@ -1,8 +1,10 @@
-/* Acá van tus estilos */
-
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ddd;
 }
 
 /******** NAVBAR UNO *********/
@@ -28,7 +30,6 @@ ul li a.sign-mobile{
 	padding: 10px;
 }
 
-
 .texto.texto-one{
 	color: grey;
 }
@@ -37,6 +38,7 @@ ul li a.sign-mobile{
 	color: grey;
 }
 
+<<<<<<< HEAD
 body{
 	background-color: #ddd;
 }
@@ -169,21 +171,19 @@ body{
 footer{
 	background: white;
 	margin: 0 4px 8px 0;
-
 }
 
 footer a, li, p{
 	color: #a0a0a0;
-
 	list-style: none;
 }
 
 footer li>a:hover{
-	color:#black;
+  color:black;
+
 }
 .redes{
 	margin-left: 10px;
-
 }
 
 .footer {
