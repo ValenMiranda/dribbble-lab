@@ -12,6 +12,7 @@ body{
 	border-radius: 0;
 	background-color: #333333;
 	border-color: none;
+	margin-bottom: 0;
 }
 
 ul li a.sign-mobile{
