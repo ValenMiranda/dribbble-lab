@@ -34,7 +34,7 @@ ul li a.sign-mobile{
 }
 
 .text-gray a{
-   color: grey;
+	color: grey;
 }
 
 body{
@@ -45,16 +45,16 @@ body{
 .imgPerfil{
 	display: block;
 	margin: 0 auto;
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .perfil-name {
-    font-size: 2em;
-    color: black;
+	font-size: 2em;
+	color: black;
 }
 
 .perfil-location {
-    color: #ccc;
+	color: #ccc;
 }
 
 .skillEnlace{
@@ -62,20 +62,20 @@ body{
 	color: #353535;
 	margin: 0 4px 8px 0;
 	border: 1px solid #b5b1b1;
-    padding: 6px 8px;
-    border-radius: 4px;
-    font-size: 12px;
+	padding: 6px 8px;
+	border-radius: 4px;
+	font-size: 12px;
 }
 .skillEnlace:hover{
-    text-decoration: none;
+	text-decoration: none;
 }
 .perfil{
 	border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
 }
 .elsewhere{
 	border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
 }
 .perfil, .skill, .elsewhere{
 	background-color: white;
@@ -88,8 +88,8 @@ body{
 }
 .mensaje button{
 	color: #fff;
-    background-color: #7bbb5e;
-    padding: 5px;
+	background-color: #7bbb5e;
+	padding: 5px;
 }
 .red-perfil{
 	list-style: none;
@@ -99,7 +99,7 @@ body{
 	margin: 2px;
 }
 .color{
-   color: #b5b1b1;
+	color: #b5b1b1;
 }
 .img-red{
 	width: 25px;
@@ -148,7 +148,7 @@ body{
 }
 
 .contenedor-imagen-shots:hover {
-    opacity:1;
+	opacity:1;
 }
 
 .contenedor-imagen-shots p{
@@ -167,19 +167,19 @@ body{
 /********FOOTER****************/
 
 footer{
-  background: white;
-  margin: 0 4px 8px 0;
+	background: white;
+	margin: 0 4px 8px 0;
 
 }
 
 footer a, li, p{
-color: #a0a0a0;
+	color: #a0a0a0;
 
-list-style: none;
+	list-style: none;
 }
 
 footer li>a:hover{
-  color:#black;
+	color:#black;
 }
 .redes{
 	margin-left: 10px;
@@ -187,6 +187,6 @@ footer li>a:hover{
 }
 
 .footer {
-    background-color: white;
+	background-color: white;
 }
 
