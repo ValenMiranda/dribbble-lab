@@ -6,16 +6,58 @@
 	<title>dribbble lab</title>
 	<!-- Zoom desde mobile-->
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<!-- Bootstrap Latest compiled and minified CSS -->
+	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<!-- Fontawesome -->
-	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<!-- Archivo css-->
+	<link rel="stylesheet" href="assets/css/media.css">
 	<link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/dribbbled.png" type="image/gif">
 </head>
 <body>
-<nav class="navbar navbar-default">
+
+	<!-- INICIO NAV -->
+	<nav class="navbar navbar-inverse nav-uno">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand text-center" href="#"><img src="assets/img/dribbble-white.png" alt=""></a>
+				<ul class="nav navbar-nav hidden-md hidden-lg">
+					<li><a class="sign-mobile" href="#">Sign in</a></li>
+				</ul> 
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<form class="navbar-form navbar-right"> 					    	
+					<div class="form-group"> 
+						<ul class="nav navbar-nav hidden-sm hidden-xs">
+							<li><a class="sign" href="#">Sign up</a></li>
+							<li><a class="sign" href="#">Sign in</a></li>
+						</ul>             
+						<input type="text" class="form-control input-search" placeholder="Search">
+					</div>
+				</form>
+				<ul class="nav navbar-nav">
+					<li><a class="menu" href="#">Shots</a></li>
+					<li><a class="menu" href="#">Designers</a></li>
+					<li><a class="menu" href="#">Blog</a></li>
+					<li><a class="menu" href="#">Podcast</a></li>
+					<li><a class="menu" href="#">Meetups</a></li>
+					<li><a class="menu" href="#">Jobs</a></li>
+					<li><a class="menu hidden-sm hidden-xs" href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></li>
+					<li><a class="menu hidden-md hidden-lg" href="#">More<i class="fa fa-angle-right fa-2x pull-right" aria-hidden="true"></i></a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- FIN NAV -->	
+<section class="navbar navbar-default">
   <div class="container-fluid">
             <!-- Collect the nav links, forms, and other content for toggling -->
              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,11 +78,10 @@
                  <form class="navbar-form navbar-left">
                     <button type="submit" class="btn btn-default">Recent Shots</button>
                     <span class="glyphicons glyphicons-show-big-thumbnails"></span>
-
                  </form>
              </div><!-- /.navbar-collapse -->
  </div><!-- /.container-fluid -->
-</nav>
+</section>
     <div class="container">
     	<div class="row row-perfil">
     		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -193,8 +234,10 @@
     <!--fin mini footer-->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<!-- Bootstrap Latest compiled and minified JavaScript -->
+	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Fontawesome -->
+	<script src="https://use.fontawesome.com/d2c9b2c5c1.js"></script>
 	<!-- Archivo js-->
 	<script src="assets/js/main.js"></script>
 </body>

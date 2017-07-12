@@ -1,0 +1,18 @@
+@media (min-width: 768px) {
+
+	.input-search{
+		height: 25px;
+		width: 40px;
+		margin-top: 4px;
+
+	}
+	ul li .menu{
+		padding-right: 0;
+		margin-right: 10px;
+	}
+	ul li .sign{
+		padding: 0;
+		margin-top: 6px;
+		margin-right: 18px;
+	}
+}
