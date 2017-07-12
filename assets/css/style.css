@@ -1,5 +1,6 @@
 /* Acá van tus estilos */
 
+
 /******** NAVBAR UNO *********/
 .nav-uno{
 	border-radius: 0;
@@ -17,3 +18,190 @@ ul li a.sign-mobile{
 }
 
 /******** FIN NAVBAR UNO *********/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.redes-sociales i{
+	font-size: 30px;
+	color: grey;
+	padding: 10px;
+}
+
+
+.texto.texto-one{
+	color: grey;
+}
+
+.text-gray a{
+   color: grey;
+}
+
+body{
+	background-color: #ddd;
+}
+
+/********INICIO NAVBAR********/
+.nav {
+	margin-left: 35%;
+}
+
+.btn-default{
+	margin-left: 250%;
+}
+
+.a-th-large{
+	margin-left: 70%;
+}
+/********INICIO PERFIL****************/
+.imgPerfil{
+	display: block;
+	margin: 0 auto;
+    border-radius: 50%;
+}
+
+.perfil-name {
+    font-size: 2em;
+    color: black;
+}
+
+.perfil-location {
+    color: #ccc;
+}
+
+.skillEnlace{
+	display: inline-block;
+	color: #353535;
+	margin: 0 4px 8px 0;
+	border: 1px solid #b5b1b1;
+    padding: 6px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.skillEnlace:hover{
+    text-decoration: none;
+}
+.perfil{
+	border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.elsewhere{
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.perfil, .skill, .elsewhere{
+	background-color: white;
+	padding: 20px;
+}
+.locatizacion, .perfil div{
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+.mensaje button{
+	color: #fff;
+    background-color: #7bbb5e;
+    padding: 5px;
+}
+.red-perfil{
+	list-style: none;
+	padding: 5px;
+}
+.row-perfil{
+	margin: 2px;
+}
+.color{
+   color: #b5b1b1;
+}
+.img-red{
+	width: 25px;
+	opacity: .40;
+}
+.img-red:hover{
+	opacity: initial;
+}
+.red-enlace{
+	color: #353535;
+}
+.red-perfil li a{
+	text-decoration: none;
+}
+.red-perfil li{
+	padding: 5px;
+}
+.skill, .elsewhere{
+	border-top: 1px solid #ddd;
+}
+/********FIN PERFIL****************/
+
+/********INICIO SHOTS****************/
+.hijo-shots {
+	box-sizing: border-box;
+	padding: 15px;
+	border: 20px solid #ddd;
+	background-color: #fff;
+}
+
+.icon-shots i {
+	padding-left: 10px;
+}
+
+.icon-shots {
+	color: #A1A1A1;
+}
+
+.contenedor-imagen-shots{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	background-color: rgba(255,255,255,0.9);
+	cursor: pointer;
+}
+
+.contenedor-imagen-shots:hover {
+    opacity:1;
+}
+
+.contenedor-imagen-shots p{
+	margin-top: 10px;
+	margin-left: 10px;
+	color: black;
+}
+
+.contenedor-imagen-shots .p-descripcion{
+	color: #A1A1A1;
+	font-size: 11px;
+}
+/********FIN SHOTS****************/
+
+
+/********FOOTER****************/
+
+footer{
+  background: white;
+  margin: 0 4px 8px 0;
+
+}
+
+footer a, li, p{
+color: #a0a0a0;
+
+list-style: none;
+}
+
+footer li>a:hover{
+  color:#black;
+}
+.redes{
+	margin-left: 10px;
+
+}
+
+.footer {
+    background-color: white;
+}
+
