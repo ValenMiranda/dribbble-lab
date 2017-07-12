@@ -24,6 +24,19 @@
 body{
 	background-color: #ddd;
 }
+
+/********INICIO NAVBAR********/
+.nav {
+	margin-left: 35%;
+}
+
+.btn-default{
+	margin-left: 250%;
+}
+
+.a-th-large{
+	margin-left: 70%;
+}
 /********INICIO PERFIL****************/
 .imgPerfil{
 	display: block;
