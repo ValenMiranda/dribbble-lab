@@ -34,7 +34,7 @@ $(document).ready(function() {
                 '<span class="locatizacion">' +
                 '<a href="#" class="perfil-location">'+data.location+'</a>' +
                 '</span>' +
-                '<div>Living in Portland & available for freelance.</div>' +
+                '<div>Hi! My name is Mike, I am a creative geek from Prague.</div>' +
                 '<div class="mensaje">' +
                 '<button class="btn"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> Hire Me</button>' +
                 '</div>');
